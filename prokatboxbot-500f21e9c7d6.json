@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "prokatboxbot",
+  "private_key_id": "500f21e9c7d635f51b044f9f4f63727bab63fae7",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC+x5wkwjSyV56p\nNHLIA/w70MvNvniY8Pv0rb+BSvQ5lHeRzlONI1thHnzBAbq4lTrOC5ar/MN+S6o6\nySUuJlISbiXWhARLv6pdzI+aCQOMGxi6oDTOURjXALlnXUMuU0ChqoOIZz/OZH5x\n9TO+YHXfSf60Fy9BUjxdjwr8wLgI0ZHSBI94qAAq2Zb4YeKcb8+RQfzeAg8HlDnM\nMltz/VJjhX/pv0OlFktDTCQ4Mb+aeRh2A4y00NO9Cv8OX12wWAbGonmpiOo1qHkD\nbhgbIQ21HNMJw5QK1QaTllWHIK79Wg7vecg63/rfJeQEXR+XbkmUIepXp+fzBAlH\nB3cZj0pXAgMBAAECggEAEx3fWJOZQjGjdWMLCV3U3Y2Ljn9CiFjFdnwej28aT9a/\nsH2TQ7ZCRtYOPCzXL/3MGa9xlqRKVpJwaVmUfy5Z1Pzyj69E2u5GvQVtckrq7xQc\nAz9gazgXHBw3d9MRk0fGVyzF51opO544SWT/nVj/FrPMcPFNy+bYo6tct3z8M+3X\nseFzRGRyRpQoThkR9whZmUEN1mdVegn62jK9lfuqPp4evN4G3rJF5fMKjkJ1cu7r\nGnC+5U5NoWzQcjgd5HuzmvMenTfE1nk2mpne6OXl21o7yR09JaX/rp5kNtT2HOVg\n9fT3Af1AVWvPazZqxg5YnUWlS1Htj6zsnNAMGFk+6QKBgQDmWOzkhzehYFaZYWNY\nSKf3pTPVRosF110nHk0cRzTfLeyaUKitNpxneIeYfjuoCJI3T6GAZIaCopd+ISGv\nDuNcyijQJAs3PT+m5ofK99n7n/0I12K33gKUTWj5FevcxSBlEkbndMddCAZElYUO\n/L8ZE7UPGoFNEDEMT3Gv8lcNMwKBgQDUBqIg/TkRDvLWNQ4NlA0NYgff9mGjlatm\n4AsRiW9xhadYexSmEw5QJ9JxZruDJavbrai/8b/QPJ8rW7I8gTGcMy3Hml7wg8Vc\n5hw7zKpUk9CSSCs1pR4FaPxnvQ9cYVU63fE7fRI/8YxaHuWNrnugyXgFu0BglU61\nU7b0tWpmTQKBgQDhST2/sOPeyFtKPe6s7LqiwYd1Yz4bI2xvEvq12orCcKcEsjiW\n2F+V71Mm+Ocdy+w9fntlGGxaHe1upbbNARGrsejC0U3K4/N6J+PNxiUDLZGL8SQS\n0mbRZvhxDViWnpG1aG/Cdft6aJvAvj/ZzaaVPyoJMJIfreNat+RoAevT8wKBgCSt\ndRRx2ZJa3KUzjlfI+a0L/UK/80oCFSF5tlB1TuL7dOR4fizwdPRmvx/A3sUkGiOp\nWdzCbCUQp5Qvi5it3LAhplS2HqBKmzSj1dR+ZiS1YUo808S26IeVDry/Vs3rRHwn\ncpiQ3TxUg6v/VkR5H4fD8lBDgTJ0AaaacbbJPzutAoGAU660THEUBMzpfPiGPrgv\n760Ndm2iIBA4afWHvHM4CBee61yEg78B/o6ziCU2gtazg/Z3u5YodvqU+/WV3hIf\nKNqtMTiZdc8MGeOAeoUFpYavo7uRrnLya4JOmS0t7dDtx+t25BcXqJ7wn3Atp+XZ\nlDe1vTYXeI2Yi6gtK4jnYl4=\n-----END PRIVATE KEY-----\n",
+  "client_email": "autobox-sheet-bot@prokatboxbot.iam.gserviceaccount.com",
+  "client_id": "112088511055457964709",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/autobox-sheet-bot%40prokatboxbot.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
