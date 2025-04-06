@@ -4,20 +4,20 @@ from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, Conve
 import gspread
 from oauth2client.service_account import ServiceAccountCredentials
 from datetime import datetime
+import json
+import os
 
-# Авторизация Google Sheets
 scope = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/drive"]
-creds = ServiceAccountCredentials.from_json_keyfile_name("prokatboxbot-500f21e9c7d6.json", scope)
+creds_dict = json.loads(os.environ["GOOGLE_CREDENTIALS_JSON"])
+creds = ServiceAccountCredentials.from_json_keyfile_dict(creds_dict, scope)
 client = gspread.authorize(creds)
 sheet = client.open_by_url("https://docs.google.com/spreadsheets/d/1T6br7eOJXTueLCWyVeLqscqIpZcPBcxUC6HwXWdsD5c/edit#gid=0").sheet1
 
-# Все боксы
 ALL_BOXES = [
     "Бокс 1 C195с", "Бокс 2 A185б", "Бокс 3", "Бокс 4", "Бокс 5",
     "Бокс 6", "Бокс 7", "Бокс 8", "Бокс 11 Sport", "Бокс 10 LUX"
 ]
 
-# Состояния
 START_DATE, END_DATE, SELECT_BOX, GET_NAME, GET_PHONE = range(5)
 
 def start(update: Update, context: CallbackContext) -> int:
@@ -95,7 +95,6 @@ def cancel(update: Update, context: CallbackContext) -> int:
     return ConversationHandler.END
 
 def main():
-    import os
     TOKEN = os.getenv("BOT_TOKEN")
     updater = Updater(TOKEN, use_context=True)
     dp = updater.dispatcher
