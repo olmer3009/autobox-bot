@@ -8,7 +8,8 @@ import json
 import os
 
 scope = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/drive"]
-creds_dict = json.loads(os.environ["GOOGLE_CREDENTIALS_JSON"])
+with open("google-credentials.json", "r") as f:
+    creds_dict = json.load(f)
 creds = Credentials.from_service_account_info(creds_dict, scopes=scope)
 client = gspread.authorize(creds)
 sheet = client.open_by_url("https://docs.google.com/spreadsheets/d/1T6br7eOJXTueLCWyVeLqscqIpZcPBcxUC6HwXWdsD5c/edit#gid=0").sheet1
